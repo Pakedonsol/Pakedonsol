@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    font-family: 'Chewy';
+
+
+}
+
+
+
+ /* .Logo ul li a {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 5px 0;
+
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30px;
+
+}  */
+
+/* .Logo ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 10px;
+    
+}
+.Logo ul{
+    padding-left: 20em;
+}
+.Logo li{
+    padding-left: 3em;
+  
+} */
+
+
+.Logo {
+    background-color:#ffefd5;
+}
+.link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding-top: 3em;
+    padding-left: 20em;
+    
+    margin: 0;
+}
+.link ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+.link li {
+    display: inline-block;
+}
+.link ul li a img{
+  width: 150px;
+display: inline-block;
+
+}
+
+/* h1 {
+    font-size: 160px;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 1em;
+} */
+.Logo img{
+display: flex;
+justify-content: flex-start;
+/* padding-left: 5em; */
+padding-top: 2em;
+width: 40%;
+
+position: relative;
+}
+
+.Logo p {
+    /* line-height: 1.3em;  */
+     font-size: 30px;
+     color: #4e4e4e;
+    margin-left:2em;
+    margin-top: 0;
+    margin-left: 6em;
+    padding-left: 6em;
+    padding-bottom: 0;
+    padding-top: 0; 
+   position: absolute;
+bottom: 7em;
+}
+
+.Paked {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1.5em;
+}
+
+.Paked img {
+    width: 45%;
+    height: 90%;
+    padding-top: 5em;
+margin-bottom: 1em;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.marquee {
+    font-size: 30px;
+    color: #4e4e4e;
+    font-weight: 700;
+border: solid 5px black;
+    background-color: rgb(250, 98, 98);
+    margin-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.marquee.content{
+    display: inline-block;
+    padding-left: 10
+    90%; /* Start the text from outside the left boundary */
+    animation: marquee 5s linear infinite;}
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-right: 2em;
+    /* margin: 20px; */
+    background-color: #4c8235;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.container img {
+    max-width: 45%;
+    height: auto;
+    flex: 1;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align the text content horizontally */
+    justify-content: flex-start;
+    /* Align the text content at the top */
+    padding: 10px;
+
+}
+
+.text-content h2 {
+    margin-top: 0;
+    color: white;
+    font-size: 50px;
+
+}
+.text-content p {
+    margin-top: 0;
+    font-weight: 300;
+    color: white;
+    font-size: 25px;
+    line-height: 1.3em;
+
+}
+
+
+
+.text-content h2,
+.text-content p {
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
+    color: white;
+    padding-left: 2em;
+}
+
+.blocktwee {
+    background-color: #ffefd5;
+}
+
+.afbeelding img {
+    max-width: 50%;
+}
+.contain{
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    display: inline-block;
+    padding-left: 30%;
+ 
+}
+
+
+
+h3{
+  color: #4e4e4e;  
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.phase {
+    margin-top: 0;
+    background-color: papayawhip;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+
+.phase h2 {
+    color: #4e4e4e;
+}
+
+.phase ul {
+    list-style-type: none;
+   
+    padding: 0;
+    padding-bottom: 2em;
+    color: #4e4e4e;
+}
+
+.phase ul li {
+
+    margin-bottom: 10px;
+    padding-left: 20px;
+ 
+}
+.end{
+    background-color: papayawhip;
+    padding-top: 2em;
+}
+.end p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+padding-top: 2em;
+    margin: 0;
+
+  color: #4e4e4e ;
+}
+
+ .end p {
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+
+        0%, 20%, 50%, 80%, 100% {
+            transform: translate3d(0, 0, 0);
+        }
+        40% {
+            transform: translate3d(0, -30px, -20px);
+        }
+        60% {
+            transform: translate3d(0, -15px, -10px) ;
+        }
+    }
+footer{
+    background-color: papayawhip;
+}
+footer img{
+    padding-top: 3em;
+padding-left: 5em;
+padding-right: 5em;
+}
